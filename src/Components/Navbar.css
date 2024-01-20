@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-scrolled {
+    background-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #ddd;
+}
+
+.navbar-icons a {
+    color: #fff;
+    margin: 0 5px;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.navbar-icons a:hover {
+    transform: scale(1.1);
+    color: #ddd;
+}
+
+.navbar-icons svg {
+    width: 20px;
+    height: auto;
+}
+
+@media (max-width: 720px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar-links, .navbar-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    .navbar-links a, .navbar-icons a {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-icons a {
+        margin: 0 2px;
+    }
+
+    .navbar-icons svg {
+        width: 16px;
+    }
+}
+
+.navbar-content {
+    max-width: 100%;
+    overflow-x: hidden;
+}
