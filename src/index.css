@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url('/src/Assets/img/banner-1.avif');
+  background-size: cover;
+  overflow-x: hidden;
 }
 
 code {
