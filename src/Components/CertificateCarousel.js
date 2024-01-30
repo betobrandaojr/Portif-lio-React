@@ -10,7 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import image1 from '../Assets/img/certificados/JavaScript.png';
-import image2 from '../Assets/img/certificados/Node.png';
+import image2 from '../Assets/img/certificados/vue.png';
 import image3 from '../Assets/img/certificados/scrum.png';
 function Banner(){
   return (
