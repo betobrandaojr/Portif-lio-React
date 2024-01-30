@@ -1,7 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './Navbar.css';
+import Logo from '../Assets/img/Logo-PB.png';
 
 function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -21,12 +23,14 @@ function Navbar() {
 
     return (
         <nav className={`navbar ${scrolled ? 'navbar-scrolled' : ''}`}>
-            <div className="navbar-logo">Logo</div>
+            <div className="navbar-logo">
+                <img src={Logo} alt="Descrição da imagem"/>
+            </div>
 
             <div className="navbar-links">
                 <a href="#sobre">Sobre</a>
-                <a href="#habilidades">Habilidades</a>
                 <a href="#certificados">Certificados</a>
+                <a href="#habilidades">Habilidades</a>
                 <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
             </div>

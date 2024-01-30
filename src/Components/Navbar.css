@@ -7,81 +7,97 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 16px;
-    background-color: #333;
-    transition: background-color 0.3s, box-shadow 0.3s;
+    background-color: transparent;
+    transition: background-color 0.32s ease-in-out;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
+    caret-color: transparent;
 }
 
 .navbar-scrolled {
-    background-color: #333;
+    background-color: #0a0e13;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-.navbar-logo {
-    font-size: 1.5em;
-    color: #fff;
+.navbar-logo img {
+    width: 36px;
+    height: auto;
 }
-
 .navbar-links a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
     transition: color 0.3s;
+    font-weight: bold;
 }
 
 .navbar-links a:hover {
-    color: #ddd;
+    color: #621ea4;
+}
+
+.navbar-icons {
+    width: 70px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-icons a {
-    color: #fff;
-    margin: 0 5px;
+    color: #ffffff;
+    margin-right: 5px; 
     transition: transform 0.3s, color 0.3s;
+}
+
+.navbar-icons a:last-child {
+    margin-right: 0; 
 }
 
 .navbar-icons a:hover {
     transform: scale(1.1);
-    color: #ddd;
+    color: #621ea4;
 }
 
 .navbar-icons svg {
-    width: 20px;
+    width: 25px;
     height: auto;
 }
 
 @media (max-width: 720px) {
     .navbar {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
         padding: 10px;
     }
 
     .navbar-links, .navbar-icons {
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        margin-top: 10px;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
     }
 
     .navbar-links a, .navbar-icons a {
-        margin: 5px 0;
+        margin: 0 10px;
     }
 }
 
 @media (max-width: 480px) {
     .navbar-icons a {
-        margin: 0 2px;
+        margin: 0 1vw;
     }
 
     .navbar-icons svg {
-        width: 16px;
+        width: 3.5vw;
+        vertical-align: auto;
     }
-}
 
-.navbar-content {
-    max-width: 100%;
-    overflow-x: hidden;
+    .navbar-links a {
+        font-size: 10px;
+        margin: 0 2vw; 
+    }
+    
+    .navbar-logo img {
+        width: 20px;
+        height: auto;
+    }
 }
