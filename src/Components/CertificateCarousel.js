@@ -10,6 +10,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import image1 from '../Assets/img/certificados/JavaScript.png';
+import image2 from '../Assets/img/certificados/Node.png';
+import image3 from '../Assets/img/certificados/scrum.png';
 function Banner(){
   return (
     <div className='background-carousel' id='#certificados'>
@@ -33,12 +35,12 @@ function Banner(){
             </SwiperSlide>
             <SwiperSlide>
               <div className='img-swiper'>
-                <img src={image1} alt='Certificate 2' />
+                <img src={image2} alt='Certificate 2' />
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className='img-swiper'>
-                <img src={image1} alt='Certificate 3' />
+                <img src={image3} alt='Certificate 3' />
               </div>
             </SwiperSlide>
           </Swiper>
