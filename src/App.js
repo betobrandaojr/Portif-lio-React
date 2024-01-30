@@ -11,7 +11,6 @@ function App() {
             <Navbar />
             <Banner />
             <CertificateCarousel />
-            <Grid />
         </div>
     );
 }
