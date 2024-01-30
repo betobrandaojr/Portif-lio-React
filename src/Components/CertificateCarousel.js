@@ -10,8 +10,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 import image1 from '../Assets/img/certificados/JavaScript.png';
-
-export default () => {
+function Banner(){
   return (
     <div className='background-carousel' id='#certificados'>
       <div className='container-carousel'>
@@ -47,4 +46,5 @@ export default () => {
       </div>
     </div>
   );
-};
+}
+export default Banner;
