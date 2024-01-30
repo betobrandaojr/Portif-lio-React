@@ -5,9 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+<<<<<<< HEAD
   /*background: url('/src/Assets/img/banner-1.avif');*/
   background-size: cover;
   overflow-x: hidden;
+=======
+>>>>>>> parent of 0eaf57b (Include image in background)
 }
 
 code {
