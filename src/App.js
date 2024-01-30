@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './Components/Navbar.js';
 import Banner from './Components/Banner.js';
 import CertificateCarousel from './Components/CertificateCarousel.js';
-import Grid from './Components/Grid.js';
+//import Grid from './Components/Grid.js';
 
 function App() {
     return (
