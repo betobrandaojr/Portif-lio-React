@@ -26,9 +26,9 @@ function Navbar() {
                 <img src={Logo} alt="Descrição da imagem"/>
             </div>
 
-            <div className="navbar-links">
-                <a href="#sobre">Sobre</a>
-                <a href="#certificados">Certificados</a>
+           <div className="navbar-links">
+                <a href="#abaut">Sobre</a>
+                <a href="#certificate">Certificados</a>
                 <a href="#habilidades">Habilidades</a>
                 <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>

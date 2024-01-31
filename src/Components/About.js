@@ -17,8 +17,8 @@ function About() {
   }, []);
 
   return (
-    <section className='banner-container' id='home'>
-      <div className='banner-container-div'>
+    <section className='banner-container'>
+      <div className='banner-container-div' id='abaut'>
         <div className="two-column-container">
           <div className="left-column">
             <div>

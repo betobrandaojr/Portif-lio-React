@@ -13,7 +13,7 @@ import image3 from '../Assets/img/certificados/scrum.png';
 
 function Certificates(){
   return (
-    <div className='background-carousel' id='#certificados'>
+    <div className='background-carousel' id='certificate'>
       <div className='container-carousel'>
         <h2 className='title-certificates'>Certificados</h2>
         <div className='carousel-overlay'>
