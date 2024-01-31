@@ -2,7 +2,7 @@
 .banner-container {
   margin-top: 0;
   padding: 11.25rem 0 6.25rem 0;
-  background-image: url('../../Assets/img/Banner-6.jpg');
+  background-image: url('../Assets/img/Banner-6.jpg');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

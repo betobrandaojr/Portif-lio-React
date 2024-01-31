@@ -1,18 +1,15 @@
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from './Components/Pages/Navbar';
-import About from './Components/Pages/About';  // Alterado de 'Abaut' para 'About'
-import Certificates from './Components/Pages/Certificates';
-import Footer from './Components/Pages/Footer';
+import Navbar from './Components/Navbar.js';
+import About from './Components/About.js';
+import Certificates from './Components/Certificates.js';
+//import Grid from './Components/Grid.js';
 
 function App() {
     return (
-        <Router>
+        <div>
             <Navbar />
-            <Route exact path="/" component={About} />
-            <Route path="/Certificates" component={Certificates} />
-            <Footer />
-        </Router>
+            <About />
+            <Certificates />
+        </div>
     );
 }
-
 export default App;

@@ -24,7 +24,7 @@
     width: 36px;
     height: auto;
 }
-.navbar-links link {
+.navbar-links a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
@@ -32,7 +32,7 @@
     font-weight: bold;
 }
 
-.navbar-links link:hover {
+.navbar-links a:hover {
     color: #621ea4;
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import './About.module.css';
-import ProfileImage from '../../Assets/img/teste-2.jpg';//../Assets/img/teste-2.jpg
+import './About.css';
+import ProfileImage from '../Assets/img/teste-2.jpg';//../Assets/img/teste-2.jpg
 import TextAnimator from './TextAnimator';
 
 function About() {
