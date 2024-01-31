@@ -2,17 +2,18 @@ import React from 'react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import './CertificateCarousel.css'; 
+import './Certificates.module.css'; 
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import image1 from '../Assets/img/certificados/JavaScript.png';
-import image2 from '../Assets/img/certificados/vue.png';
-import image3 from '../Assets/img/certificados/scrum.png';
-function Banner(){
+import image1 from '../../Assets/img/certificados/JavaScript.png';
+import image2 from '../../Assets/img/certificados/vue.png';
+import image3 from '../../Assets/img/certificados/scrum.png';
+
+function Certificates(){
   return (
     <div className='background-carousel' id='#certificados'>
       <div className='container-carousel'>
@@ -49,4 +50,4 @@ function Banner(){
     </div>
   );
 }
-export default Banner;
+export default Certificates;

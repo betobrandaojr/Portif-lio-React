@@ -1,11 +1,11 @@
 import React from 'react';
-import './Grid.css';
+import './Skills.module.css';
 import image1 from '../Assets/img/Tecnologias/nodejs-removebg-preview.png';
 import image2 from '../Assets/img/Tecnologias/React.png';
 import image3 from '../Assets/img/Tecnologias/Angular.svg';
 import image4 from '../Assets/img/Tecnologias/java.svg';
 
-function Grid() {
+function Skills() {
 
   return (
     <div className='grid-container' id='#habilidades'>
@@ -25,4 +25,4 @@ function Grid() {
   );
 }
 
-export default Grid;
+export default Skills;

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './Banner.css';
-import ProfileImage from '../Assets/img/teste-2.jpg';
+import './About.module.css';
+import ProfileImage from '../../Assets/img/teste-2.jpg';//../Assets/img/teste-2.jpg
 import TextAnimator from './TextAnimator';
 
-function Banner() {
+function About() {
   const [isPhotoVisible, setIsPhotoVisible] = useState(false);
   const toRotate = ["Desenvolvedor Full Stack", "Analista de sistemas", "DBA", "Gestor de Projetos"];
   const period = 1000;
@@ -47,4 +47,4 @@ function Banner() {
   );
 }
 
-export default Banner;
+export default About;
