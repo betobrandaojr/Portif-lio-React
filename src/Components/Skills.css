@@ -1,56 +1,45 @@
+/* Skills.css */
+
+.section-grid-container {
+ 
+  justify-content: center;
+  background-color: #010a14;
+  border-radius: 15px;
+  padding: 16px;
+  margin-top: 10rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-skills {
+  text-align: center;
+  color: #08abac;
+  font-size: 42px;
+  line-height: 6.5rem;
+  margin-bottom: 1rem;
+}
+
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px; /* Espaço entre os itens */
-    padding: 16px; /* Padding para o container do grid */
-  }
-  
-  .grid-container-component {
-    background-color: black;
-    border-radius: 10px; /* Bordas arredondadas */
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    padding: 8px;
-  }
-  
-  .grid-container-component > div {
-    flex: 1;
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-  }
-  
-  .grid-container-component img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse o seu container */
-    max-height: 100px; /* Altura máxima para a imagem */
-    display: block; /* Remove o espaço extra abaixo da imagem */
-  }
-  
-  /* Media queries para telas menores */
-  @media (max-width: 1024px) {
-    .grid-container {
-      grid-template-columns: repeat(3, 1fr); /* 3 colunas para tablets */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 colunas para telas menores */
-    }
-  
-    img {
-      max-height: 80px; /* Diminui a altura máxima para imagens em telas menores */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .grid-container {
-      grid-template-columns: 1fr; /* 1 coluna para celulares */
-    }
-  
-    img {
-      max-height: 60px; /* Diminui mais a altura para telas muito pequenas */
-    }
-  }
-  
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+.skill-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.skill-image-container img {
+  width: 60%; /* As imagens se ajustarão ao tamanho do contêiner */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.skill-image-container img:hover {
+  transform: scale(1.1); /* Animação de hover */
+}

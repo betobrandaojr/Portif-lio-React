@@ -1,14 +1,12 @@
-body {
-  background-image: url('../Assets/img/background-certificates-2.avif');
-}
 
 .background-carousel {
+
   user-select: none;
 }
 
 .container-carousel {
-  background-color: #0a0e13;
-  border-radius: 50px;
+  background-color: #010a14;
+  border-radius: 15px;
   width: 65%;
   margin: 0 auto;
   padding: 0px;
@@ -16,6 +14,7 @@ body {
   z-index: 1;
   caret-color: transparent;
   margin-top: -3.75rem;
+  margin-bottom: -3.75rem;
 }
 
 .title-certificates {
@@ -28,17 +27,17 @@ body {
 .img-swiper {
   width: 100%;
   height: 100%;
-  background-color: #0a0e13;
-  border-radius: 10px;
+  border-radius: 15px;
   justify-content: center;
   align-items: center;
   overflow: hidden;
   display: flex;
+  margin-bottom: 40px;
 }
 
 .img-swiper img {
   width: 75%;
-  border-radius: 55px;
+  border-radius: 25px;
 }
 
 .my-swiper-container .swiper-button-next,
