@@ -43,3 +43,19 @@
 .skill-image-container img:hover {
   transform: scale(1.1); /* Animação de hover */
 }
+@media (max-width: 720px) {
+  .title-skills{
+    font-size: 30px;
+    line-height: 4.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-skills{
+    font-size: 20px;
+    line-height: 3.5rem;
+  }
+  .section-grid-container{
+    margin-top: 7rem;
+  }
+}

@@ -29,7 +29,7 @@ function Navbar() {
            <div className="navbar-links">
                 <a href="#abaut">Sobre</a>
                 <a href="#certificate">Certificados</a>
-                <a href="#habilidades">Habilidades</a>
+                <a href="#tecnologias">Tecnologias</a>
                 <a href="#projetos">Projetos</a>
                 <a href="#contato">Contato</a>
             </div>

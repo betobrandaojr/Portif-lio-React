@@ -35,7 +35,7 @@ function Skills() {
 
   return (
     <section className='section-grid-container' >
-        <h2 className='title-skills' id='habilidades' > Habilidades </h2>
+        <h2 className='title-skills' id='tecnologias' > Tecnologias </h2>
         <div className='div-grid-container'>
             <div className='grid-container'>
                 {images.map((img, index) => (

@@ -2,6 +2,7 @@ import Navbar from './Components/Navbar.js';
 import About from './Components/About.js';
 import Certificates from './Components/Certificates.js';
 import Skills from './Components/Skills.js'
+import Footer from './Components/Footer.js';
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <About />
             <Certificates />
             <Skills />
+            <Footer/>
         </div>
     );
 }
