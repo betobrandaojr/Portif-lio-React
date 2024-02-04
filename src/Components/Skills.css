@@ -24,6 +24,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 6px;
+  margin-bottom: 2rem;
 }
 
 .skill-image-container {

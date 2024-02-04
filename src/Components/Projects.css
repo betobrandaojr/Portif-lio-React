@@ -5,6 +5,7 @@
   border-radius: 15px;
   padding: 16px;
   margin-top: 10rem;
+  margin-bottom: 5rem;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -23,6 +24,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 6px;
+  margin-bottom: 2rem;
 }
 
 .projects-image-container {
