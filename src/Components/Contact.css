@@ -1,0 +1,125 @@
+.section-form-email-container {
+    background-image: 
+    linear-gradient(to top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.9) 100%),
+    url('../Assets/img/Banner-6.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.div-formemail-container {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(90.21deg, rgba(54, 12, 45, 0.582) -5.91%, rgba(28, 44, 49, 0.644) 111.58%);
+    border: 1px solid rgba(31, 187, 174, 0.411);
+    color: #FFF;
+    padding: 14px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title-formemail {
+    text-align: center;
+    color: #08abac;
+    font-size: 42px;
+    margin: 0 auto 1rem auto;
+}
+
+.form-formemail {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-formemail, .textarea-formemail {
+    margin-bottom: 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(31, 187, 174, 0.411);
+    padding: 0 8px;
+    background-color: #611ea469;
+    color: #FFF; 
+}
+
+.input-formemail {
+    height: 44px; 
+}
+
+.textarea-formemail {
+    padding: 8px; 
+    height: 120px;
+    resize: none;
+    font-family: 'Arial', sans-serif
+}
+
+.button-formemail {
+    height: 34px;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    background-color: #0fdbff;
+    font-size: 18px;
+    transition: background-color, transform 0.8s;
+    margin-bottom: 2rem;
+}
+
+.button-formemail:hover {
+    background-color: #0fe3ff;
+    transform: scale(1.01);
+}
+
+@media (max-width: 1000px) {
+    .grid-container-projects {
+      grid-template-columns: 1fr; /* Mudança para uma coluna em telas menores */
+    }
+  
+    .project-description {
+      /* Restaurar a visibilidade da descrição do projeto com um tamanho de fonte reduzido */
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 720px) {
+    /* Estilos existentes para 720px... */
+  
+    .section-projects-container {
+      width: 95%; /* Aumenta a largura para utilizar mais espaço disponível */
+      border-radius: 10px; /* Suaviza os cantos em telas menores */
+    }
+  
+    .projects-image-container img {
+      width: 100%; /* Faz as imagens ocuparem todo o espaço disponível */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Estilos existentes para 480px... */
+  
+    .grid-container-projects {
+      margin-bottom: 1rem; /* Reduz o espaço abaixo da grade para economizar espaço */
+    }
+  
+    .projects-image-container, .overlay {
+      border-radius: 10px; /* Ajusta os cantos arredondados para consistência */
+    }
+  
+     .project-description, .project-link {
+      max-width: 90%; /* Aumenta a largura máxima para aproveitar melhor o espaço horizontal */
+    }
+    .title-formemail{
+        font-size: 20px;
+        line-height: 3.5rem;
+    }
+  
+    .project-link {
+      padding: 10px 20px; /* Aumenta o tamanho para facilitar a interação em telas de toque */
+      font-size: 16px; /* Aumenta o tamanho da fonte para melhor legibilidade */
+    }
+  }
+  
