@@ -35,7 +35,7 @@ function Navbar() {
             </div>
 
             <div className="navbar-icons">
-                <a href="https://www.linkedin.com/in/paulo-roberto-brand%C3%A3o-%F0%9F%8F%B3%EF%B8%8F%E2%80%8D%F0%9F%8C%88-4b0456287/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/paulo-brand%C3%A3o-%F0%9F%8C%88-4b0456287/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a href="https://github.com/betobrandaojr" target="_blank" rel="noopener noreferrer">
