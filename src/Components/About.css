@@ -190,14 +190,25 @@ body {
   .banner-container{
     padding: 2.25rem 0 6.25rem 0;
   }
+  .buttons-container{
+    gap: 20px;
+  }
+  .talk-me, .curriculo{
+    padding: 10px 62px;
+    height: 40px;
+    font-size: 2vw;
+  }
   
 }
 
 @media (max-width: 480px) {
-  .two-column-container h1, h2, p, .Intro-About, .my-name, .cursor, .About {
-    font-size: 4.5vw;
+  .my-name{
+    font-size: 5vw;
   }
-  .text-animator{
+  .two-column-container h1, h2, p, .Intro-About, .About {
+    font-size: 4vw;
+  }
+  .text-animator, .cursor{
     font-size: 5vw;
   }
   .right-column img{
@@ -209,5 +220,13 @@ body {
     flex: none;
     width: 90%;
     margin-top: 20px;
+  }
+  .buttons-container{
+    gap: 20px;
+  }
+  .talk-me, .curriculo{
+    padding: 10px 52px;
+    height: 40px;
+    font-size: 2vw;
   }
 }
