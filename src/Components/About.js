@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './About.css';
-import ProfileImage from '../Assets/img/teste-2.jpg';//../Assets/img/teste-2.jpg
+import ProfileImage from '../Assets/img/teste-2.jpg';
+import curriculo from '../Assets/docs/Currículo Paulo Roberto Brandão Junior.pdf';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPrint } from '@fortawesome/free-solid-svg-icons';
 import TextAnimator from './TextAnimator';
 
 function About() {
@@ -16,6 +19,13 @@ function About() {
     return () => clearTimeout(timer);
   }, []);
 
+  const navigateToSection = () => {
+    const section = document.getElementById('contato');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className='banner-container'>
       <div className='banner-container-div' id='abaut'>
@@ -29,9 +39,28 @@ function About() {
                 <TextAnimator toRotate={toRotate} period={period} />
                 <span className="cursor"></span>
               </p>
-              <p className='about'>
-                Sou um analista de sistemas e desenvolvedor Full Stack com ampla experiência em uma variedade de tecnologias. No back-end, possuo habilidades aprofundadas em Node.js, Java/Spring Boot, C#, Vb.Net e ASP.NET, complementadas por um conhecimento robusto em linguagens de consulta e manipulação de banco de dados, como PL/SQL. Além disso, tenho grande experiência com sistemas de gerenciamento de banco de dados como: PostgreSQL, SQL Server, MySQL e MongoDB. No front-end, trabalho com React, Angular e Vue.js. Atualmente, faço parte de uma equipe de desenvolvedores que criei, onde promovo um ambiente colaborativo de aprendizado e enfrentamento de desafios, desde os mais simples aos mais complexos.
-              </p>
+              <div className='about'>
+                <p>
+                  Sou um <strong>Analista de Sistemas</strong>, <strong>Desenvolvedor Full Stack</strong>, <strong>DBA</strong> e <strong>Gestor de Projetos</strong>  com ampla experiência em uma variedade de tecnologias. 
+                </p>
+                <p>
+                  No back-end, possuo habilidades aprofundadas em <strong>Node.js</strong>, <strong>Java/Spring Boot</strong>, <strong>C#</strong>, <strong>Vb.Net</strong> e <strong>ASP.NET</strong>, complementadas por um conhecimento robusto em linguagens de consulta e manipulação de banco de dados, como <strong>PL/SQL</strong>.
+                </p>
+                <p>
+                  Além disso, tenho grande experiência com sistemas de gerenciamento de banco de dados como: <strong>PostgreSQL</strong>, <strong>SQL Server</strong>, <strong>MySQL</strong> e <strong>MongoDB</strong>.
+                </p>
+                <p>
+                  No front-end, trabalho com <strong>React</strong>, <strong>Angular</strong> e <strong>Vue.js</strong>. Atualmente, faço parte de uma equipe de desenvolvedores que criei, onde promovemos um ambiente colaborativo de aprendizado e enfrentamento de desafios, desde os mais simples aos mais complexos trazendo para nossos clientes soluções para diversos problemas.
+                </p>
+              </div>
+            </div>
+            <div className="buttons-container">
+              <button className='talk-me' onClick={navigateToSection}>Fale Comigo</button>
+            <a href={curriculo} download='Paulo-Brandao-Curriculo.pdf'>
+              <button className='curriculo'>
+                <FontAwesomeIcon icon={faPrint} /> Currículo
+              </button>
+            </a>
             </div>
           </div>
           <div className="right-column">
